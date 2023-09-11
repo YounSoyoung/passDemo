@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>본인인증 결과</title>
+</head>
+<body>
+  <div>
+      <p th:text="${'이름 : ' + dto.getName()}"></p>
+      <p th:text="${'전화번호 : ' + dto.getPhone()}"></p>
+      <p th:text="${'성별 : ' + dto.getGender()}"></p>
+  </div>
+</body>
+</html>
